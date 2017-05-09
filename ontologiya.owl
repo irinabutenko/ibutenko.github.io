@@ -1,0 +1,297 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#"
+     xml:base="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17">
+        <rdfs:comment>Ontologiya fitnes programmy</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#treneruyut -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#treneruyut">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Otzhimaniya"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Podtyagivaniya"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#myshchtsy_grudi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#myshtsy_ruk"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#treneruyut2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#treneruyut2">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Podtyagivaniya"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#naklony_korpusa"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#myshtsi_zhivota"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#treneruyut3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#treneruyut3">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Prisedaniya_s_gantelyami"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#myshtsy_nog"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#myshtsy_yagodits"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#treneruyut4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#treneruyut4">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#beg"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#chelnochnyy_beg"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#pryzhki"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#pryzhki_so_skakalkoy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#pryzhki_so_smenoy_nog"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#vybros_nog"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#myshtsy_nog"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#treneruyut5 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#treneruyut5">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#pryzhki_so_skakalkoy"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#myshtsy_ruk"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#treneruyut6 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#treneruyut6">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#naklony_korpusa"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#myshtsy_spiny"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Fitnes_programma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Fitnes_programma"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Otzhimaniya -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Otzhimaniya">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Silovye_trenirovki"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Uprazh_na_skorost&apos;"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Podtyagivaniya -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Podtyagivaniya">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Silovye_trenirovki"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Prisedaniya_s_gantelyami -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Prisedaniya_s_gantelyami">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Silovye_trenirovki"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Silovye_trenirovki -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Silovye_trenirovki">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Fitnes_programma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Uprazh_na_koordinatsiyu_dvizheniy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Uprazh_na_koordinatsiyu_dvizheniy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Fitnes_programma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#beg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#beg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Uprazhneniya_na_vynoslivost&apos;"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#chelnochnyy_beg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#chelnochnyy_beg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Uprazh_na_skorost&apos;"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#myshchtsy_grudi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#myshchtsy_grudi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Otzhimaniya"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Podtyagivaniya"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#myshtsi_zhivota -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#myshtsi_zhivota">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Podtyagivaniya"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#naklony_korpusa"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#skruchivaniya_lezha"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#myshtsy_nog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#myshtsy_nog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Prisedaniya_s_gantelyami"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#beg"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#chelnochnyy_beg"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#pryzhki"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#pryzhki_so_skakalkoy"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#pryzhki_so_smenoy_nog"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#vybros_nog"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#myshtsy_ruk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#myshtsy_ruk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Otzhimaniya"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Podtyagivaniya"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#pryzhki_so_skakalkoy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#myshtsy_spiny -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#myshtsy_spiny">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#naklony_korpusa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#myshtsy_yagodits -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#myshtsy_yagodits">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Prisedaniya_s_gantelyami"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#naklony_korpusa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#naklony_korpusa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Uprazhneniya_na_gibkost&apos;"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#pryzhki -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#pryzhki">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Uprazh_na_koordinatsiyu_dvizheniy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#pryzhki_so_skakalkoy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#pryzhki_so_skakalkoy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Uprazh_na_skorost&apos;"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#pryzhki_so_smenoy_nog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#pryzhki_so_smenoy_nog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Uprazhneniya_na_vynoslivost&apos;"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#skruchivaniya_lezha -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#skruchivaniya_lezha">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Uprazhneniya_na_gibkost&apos;"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#vybros_nog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#vybros_nog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Uprazh_na_koordinatsiyu_dvizheniy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Uprazh_na_skorost&apos; -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Uprazh_na_skorost&apos;">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Fitnes_programma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Uprazhneniya_na_gibkost&apos; -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Uprazhneniya_na_gibkost&apos;">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Fitnes_programma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Uprazhneniya_na_vynoslivost&apos; -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Uprazhneniya_na_vynoslivost&apos;">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-17#Fitnes_programma"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

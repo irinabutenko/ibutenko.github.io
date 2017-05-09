@@ -1,0 +1,756 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.2.0), http://vowl.visualdataweb.org",
+  "namespace" : [ ],
+  "header" : {
+    "languages" : [ "IRI-based", "undefined" ],
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17",
+    "other" : {
+      "comment" : [ {
+        "identifier" : "comment",
+        "language" : "undefined",
+        "value" : "Ontologiya fitnes programmy",
+        "type" : "label"
+      } ]
+    }
+  },
+  "metrics" : {
+    "classCount" : 23,
+    "datatypeCount" : 0,
+    "objectPropertyCount" : 6,
+    "datatypePropertyCount" : 0,
+    "propertyCount" : 6,
+    "nodeCount" : 23,
+    "axiomCount" : 86,
+    "individualCount" : 0
+  },
+  "class" : [ {
+    "id" : "class6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class25",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "class24",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "class27",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "class26",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "class28",
+    "type" : "owl:intersectionOf"
+  } ],
+  "classAttribute" : [ {
+    "id" : "class6",
+    "label" : {
+      "IRI-based" : "pryzhki"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#pryzhki",
+    "subClasses" : [ "class22" ],
+    "superClasses" : [ "class13" ],
+    "instances" : 0
+  }, {
+    "id" : "class18",
+    "label" : {
+      "IRI-based" : "pryzhki_so_skakalkoy"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#pryzhki_so_skakalkoy",
+    "subClasses" : [ "class22", "class19" ],
+    "superClasses" : [ "class14" ],
+    "instances" : 0
+  }, {
+    "id" : "class9",
+    "label" : {
+      "IRI-based" : "Fitnes_programma"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#Fitnes_programma",
+    "subClasses" : [ "class17", "class13", "class14", "class3", "class21" ],
+    "instances" : 0
+  }, {
+    "id" : "class20",
+    "label" : {
+      "IRI-based" : "myshtsy_yagodits"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#myshtsy_yagodits",
+    "superClasses" : [ "class15" ],
+    "instances" : 0
+  }, {
+    "id" : "class13",
+    "label" : {
+      "IRI-based" : "Uprazh_na_koordinatsiyu_dvizheniy"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#Uprazh_na_koordinatsiyu_dvizheniy",
+    "subClasses" : [ "class6", "class23" ],
+    "superClasses" : [ "class9" ],
+    "instances" : 0
+  }, {
+    "id" : "class14",
+    "label" : {
+      "IRI-based" : "Uprazh_na_skorost'"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#Uprazh_na_skorost'",
+    "subClasses" : [ "class11", "class5", "class18" ],
+    "superClasses" : [ "class9" ],
+    "instances" : 0
+  }, {
+    "id" : "class21",
+    "label" : {
+      "IRI-based" : "Uprazhneniya_na_vynoslivost'"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#Uprazhneniya_na_vynoslivost'",
+    "subClasses" : [ "class7", "class12" ],
+    "superClasses" : [ "class9" ],
+    "instances" : 0
+  }, {
+    "id" : "class7",
+    "label" : {
+      "IRI-based" : "beg"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#beg",
+    "subClasses" : [ "class22" ],
+    "superClasses" : [ "class21" ],
+    "instances" : 0
+  }, {
+    "id" : "class19",
+    "label" : {
+      "IRI-based" : "myshtsy_ruk"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#myshtsy_ruk",
+    "superClasses" : [ "class11", "class2", "class18" ],
+    "instances" : 0
+  }, {
+    "id" : "class15",
+    "label" : {
+      "IRI-based" : "Prisedaniya_s_gantelyami"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#Prisedaniya_s_gantelyami",
+    "subClasses" : [ "class22", "class20" ],
+    "superClasses" : [ "class17" ],
+    "instances" : 0
+  }, {
+    "id" : "class22",
+    "label" : {
+      "IRI-based" : "myshtsy_nog"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#myshtsy_nog",
+    "superClasses" : [ "class15", "class7", "class5", "class6", "class18", "class12", "class23" ],
+    "instances" : 0
+  }, {
+    "id" : "class4",
+    "label" : {
+      "IRI-based" : "skruchivaniya_lezha"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#skruchivaniya_lezha",
+    "subClasses" : [ "class1" ],
+    "superClasses" : [ "class3" ],
+    "instances" : 0
+  }, {
+    "id" : "class10",
+    "label" : {
+      "IRI-based" : "naklony_korpusa"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#naklony_korpusa",
+    "subClasses" : [ "class1", "class8" ],
+    "superClasses" : [ "class3" ],
+    "instances" : 0
+  }, {
+    "id" : "class11",
+    "label" : {
+      "IRI-based" : "Otzhimaniya"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#Otzhimaniya",
+    "subClasses" : [ "class16", "class19" ],
+    "superClasses" : [ "class17", "class14" ],
+    "instances" : 0
+  }, {
+    "id" : "class8",
+    "label" : {
+      "IRI-based" : "myshtsy_spiny"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#myshtsy_spiny",
+    "superClasses" : [ "class10" ],
+    "instances" : 0
+  }, {
+    "id" : "class16",
+    "label" : {
+      "IRI-based" : "myshchtsy_grudi"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#myshchtsy_grudi",
+    "superClasses" : [ "class11", "class2" ],
+    "instances" : 0
+  }, {
+    "id" : "class2",
+    "label" : {
+      "IRI-based" : "Podtyagivaniya"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#Podtyagivaniya",
+    "subClasses" : [ "class16", "class1", "class19" ],
+    "superClasses" : [ "class17" ],
+    "instances" : 0
+  }, {
+    "id" : "class12",
+    "label" : {
+      "IRI-based" : "pryzhki_so_smenoy_nog"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#pryzhki_so_smenoy_nog",
+    "subClasses" : [ "class22" ],
+    "superClasses" : [ "class21" ],
+    "instances" : 0
+  }, {
+    "id" : "class17",
+    "label" : {
+      "IRI-based" : "Silovye_trenirovki"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#Silovye_trenirovki",
+    "subClasses" : [ "class11", "class2", "class15" ],
+    "superClasses" : [ "class9" ],
+    "instances" : 0
+  }, {
+    "id" : "class3",
+    "label" : {
+      "IRI-based" : "Uprazhneniya_na_gibkost'"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#Uprazhneniya_na_gibkost'",
+    "subClasses" : [ "class10", "class4" ],
+    "superClasses" : [ "class9" ],
+    "instances" : 0
+  }, {
+    "id" : "class23",
+    "label" : {
+      "IRI-based" : "vybros_nog"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#vybros_nog",
+    "subClasses" : [ "class22" ],
+    "superClasses" : [ "class13" ],
+    "instances" : 0
+  }, {
+    "id" : "class1",
+    "label" : {
+      "IRI-based" : "myshtsi_zhivota"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#myshtsi_zhivota",
+    "superClasses" : [ "class2", "class10", "class4" ],
+    "instances" : 0
+  }, {
+    "id" : "class5",
+    "label" : {
+      "IRI-based" : "chelnochnyy_beg"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#chelnochnyy_beg",
+    "subClasses" : [ "class22" ],
+    "superClasses" : [ "class14" ],
+    "instances" : 0
+  }, {
+    "id" : "class25",
+    "label" : {
+      "IRI-based" : "anonymous"
+    },
+    "instances" : 0,
+    "intersection" : [ "class16", "class19" ]
+  }, {
+    "id" : "class24",
+    "label" : {
+      "IRI-based" : "anonymous"
+    },
+    "instances" : 0,
+    "intersection" : [ "class11", "class2" ]
+  }, {
+    "id" : "class27",
+    "label" : {
+      "IRI-based" : "anonymous"
+    },
+    "instances" : 0,
+    "intersection" : [ "class7", "class5", "class6", "class18", "class12", "class23" ]
+  }, {
+    "id" : "class26",
+    "label" : {
+      "IRI-based" : "anonymous"
+    },
+    "instances" : 0,
+    "intersection" : [ "class2", "class1", "class10" ]
+  }, {
+    "id" : "class28",
+    "label" : {
+      "IRI-based" : "anonymous"
+    },
+    "instances" : 0,
+    "intersection" : [ "class22", "class20" ]
+  } ],
+  "property" : [ {
+    "id" : "property2",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property1",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property4",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property27",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property9",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property7",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property39",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property10",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property30",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "id" : "property2",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class22",
+    "range" : "class18"
+  }, {
+    "id" : "property1",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class22",
+    "range" : "class6"
+  }, {
+    "id" : "property29",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class2",
+    "range" : "class17"
+  }, {
+    "id" : "property4",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class17",
+    "range" : "class9"
+  }, {
+    "id" : "property3",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class19",
+    "range" : "class18"
+  }, {
+    "id" : "property26",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class19",
+    "range" : "class2"
+  }, {
+    "id" : "property35",
+    "label" : {
+      "IRI-based" : "treneruyut"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#treneruyut",
+    "attributes" : [ "symmetric" ],
+    "domain" : "class24",
+    "range" : "class25"
+  }, {
+    "id" : "property25",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class1",
+    "range" : "class2"
+  }, {
+    "id" : "property28",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class11",
+    "range" : "class17"
+  }, {
+    "id" : "property27",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class22",
+    "range" : "class12"
+  }, {
+    "id" : "property22",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class16",
+    "range" : "class11"
+  }, {
+    "id" : "property21",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class8",
+    "range" : "class10"
+  }, {
+    "id" : "property24",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class16",
+    "range" : "class2"
+  }, {
+    "id" : "property23",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class19",
+    "range" : "class11"
+  }, {
+    "id" : "property20",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class1",
+    "range" : "class10"
+  }, {
+    "id" : "property9",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class6",
+    "range" : "class13"
+  }, {
+    "id" : "property6",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class14",
+    "range" : "class9"
+  }, {
+    "id" : "property5",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class13",
+    "range" : "class9"
+  }, {
+    "id" : "property8",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class21",
+    "range" : "class9"
+  }, {
+    "id" : "property7",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class3",
+    "range" : "class9"
+  }, {
+    "id" : "property19",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class1",
+    "range" : "class4"
+  }, {
+    "id" : "property37",
+    "label" : {
+      "IRI-based" : "treneruyut6"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#treneruyut6",
+    "domain" : "class10",
+    "range" : "class8"
+  }, {
+    "id" : "property18",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class20",
+    "range" : "class15"
+  }, {
+    "id" : "property15",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class12",
+    "range" : "class21"
+  }, {
+    "id" : "property36",
+    "label" : {
+      "IRI-based" : "treneruyut2"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#treneruyut2",
+    "domain" : "class26",
+    "range" : "class1"
+  }, {
+    "id" : "property14",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class7",
+    "range" : "class21"
+  }, {
+    "id" : "property40",
+    "label" : {
+      "IRI-based" : "treneruyut3"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#treneruyut3",
+    "domain" : "class15",
+    "range" : "class28"
+  }, {
+    "id" : "property17",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class22",
+    "range" : "class15"
+  }, {
+    "id" : "property39",
+    "label" : {
+      "IRI-based" : "treneruyut4"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#treneruyut4",
+    "domain" : "class27",
+    "range" : "class22"
+  }, {
+    "id" : "property16",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class22",
+    "range" : "class7"
+  }, {
+    "id" : "property38",
+    "label" : {
+      "IRI-based" : "treneruyut5"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-17#treneruyut5",
+    "domain" : "class18",
+    "range" : "class19"
+  }, {
+    "id" : "property11",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class11",
+    "range" : "class14"
+  }, {
+    "id" : "property33",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class22",
+    "range" : "class23"
+  }, {
+    "id" : "property10",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class23",
+    "range" : "class13"
+  }, {
+    "id" : "property32",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class4",
+    "range" : "class3"
+  }, {
+    "id" : "property13",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class18",
+    "range" : "class14"
+  }, {
+    "id" : "property12",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class5",
+    "range" : "class14"
+  }, {
+    "id" : "property34",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class22",
+    "range" : "class5"
+  }, {
+    "id" : "property31",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class10",
+    "range" : "class3"
+  }, {
+    "id" : "property30",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class15",
+    "range" : "class17"
+  } ]
+}
